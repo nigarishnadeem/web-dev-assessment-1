@@ -1,0 +1,17 @@
+.circles {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+.circles div {
+  position: absolute;
+  border: 1px solid green;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.c1 { width: 300px; height: 300px; }
+.c2 { width: 220px; height: 220px; }
+.c3 { width: 150px; height: 150px; }
+.c4 { width: 90px;  height: 90px; }
